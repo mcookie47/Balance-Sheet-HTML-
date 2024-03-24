@@ -6,7 +6,7 @@ span[class~="sr-only"] {
   width: 1px !important;
   position: absolute !important;
   overflow: hidden !important;
-  white-space: nowrap!important;
+  white-space: nowrap !important;
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -68,6 +68,14 @@ section {
   padding: 0 0.75rem 1.5rem 0.75rem;
 }
 
-span:not(.sr-only) {
+span {
   font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
 }
